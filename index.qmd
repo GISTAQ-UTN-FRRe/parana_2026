@@ -1,0 +1,7 @@
+---
+title: "Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
