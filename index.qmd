@@ -1,11 +1,11 @@
 ---
-title: "**Proyecto Paraná 2026**"
+title: "<titulo>**Proyecto Paraná 2026**</titulo>"
 format: 
   html: 
     toc: true
 ---
 
-El presente sitio web registra los principales avances, metodología y resultados del proyecto "**Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región**" (REMSTCI754), llevado a cabo en el Grupo de Investigación Sobre Temas Ambientales y Químicos (GISTAQ), de la Universidad Tecnológica Nacional Facultad Regional Resistencia (UTN-FRRe), en la Provincial del Chaco, Argentina.
+El presente sitio web registra los principales avances, metodología y resultados del proyecto "**Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región**" (REMSTCI754), llevado a cabo en el Grupo de Investigación Sobre Temas Ambientales y Químicos (**GISTAQ**), de la Universidad Tecnológica Nacional Facultad Regional Resistencia (**UTN-FRRe**), en la Provincial del Chaco, Argentina.
 
 ## Resumen
 
