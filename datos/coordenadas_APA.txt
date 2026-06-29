@@ -1,0 +1,10 @@
+sitio	lat	lon
+Isla del Cerrito	-27.302321	-58.587484
+Puente Gral. Belgrano	-27.463793	-58.865436
+Riacho Barranqueras	-27.472394	-58.906537
+Isla Palomera	-27.565419	-58.873130
+Río Paraguay	-27.281250	-58.607028
+
+
+
+
