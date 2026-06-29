@@ -23,7 +23,7 @@ website:
       - icon: instagram
         href: "https://www.instagram.com/gistaq.utn"
         target: _blank
-  favicon: img/favicon.jpg
+  favicon: img/favicon.png
   repo-url: https://github.com/GISTAQ-UTN-FRRe/parana_2026
   repo-actions: [edit, source, issue]
 
