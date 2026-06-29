@@ -9,30 +9,51 @@
   {
     "objectID": "introducción.html",
     "href": "introducción.html",
-    "title": "Introducción del Proyecto",
+    "title": "Calidad del Agua",
     "section": "",
     "text": "Calidad del Agua\nContenido.\n\n\nÁrea de estudio\nParaná."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Integrantes",
+    "title": "",
     "section": "",
-    "text": "Profesionales\nIng. Tenev\n\n\nBecarios\nVíctor Gómez"
+    "text": "Ing. Daniela Tenev \nBioq. Elsa Hervot\nIng. Enid Utgés \nIng. Víctor Gauto"
+  },
+  {
+    "objectID": "about.html#profesionales",
+    "href": "about.html#profesionales",
+    "title": "",
+    "section": "",
+    "text": "Ing. Daniela Tenev \nBioq. Elsa Hervot\nIng. Enid Utgés \nIng. Víctor Gauto"
+  },
+  {
+    "objectID": "about.html#becarios",
+    "href": "about.html#becarios",
+    "title": "",
+    "section": "Becarios",
+    "text": "Becarios\nMauricio Acosta \nVíctor Gómez \nCandelaria Tabernero"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región",
+    "title": "Proyecto Paraná 2026",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "El presente sitio web registra los principales avances, metodología y resultados del proyecto “Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región” (REMSTCI754), llevado a cabo en el Grupo de Investigación Sobre Temas Ambientales y Químicos (GISTAQ), de la Universidad Tecnológica Nacional Facultad Regional Resistencia (UTN-FRRe), en la Provincial del Chaco, Argentina."
   },
   {
-    "objectID": "index.html#sitio2",
-    "href": "index.html#sitio2",
-    "title": "Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región",
-    "section": "Sitio2",
-    "text": "Sitio2\nContenido2"
+    "objectID": "index.html#resumen",
+    "href": "index.html#resumen",
+    "title": "Proyecto Paraná 2026",
+    "section": "Resumen",
+    "text": "Resumen\nPreservar el agua es una actividad fundamental para el desarrollo humano. De acuerdo con los Objetivos de la Agenda 2030 para el Desarrollo Sostenible, el monitoreo de la calidad del agua es necesaria para garantizar su disponibilidad. En particular, los ecosistemas de agua dulce son sensibles a los cambios de usos de suelo, el impacto antrópico [1] y efectos climáticos.\nLa tecnología de teledetección espacial permite estimar, a gran escala, propiedades fisicoquímicas del agua mediante plataformas espaciales que orbitan el planeta [2]. La ventaja de esta tecnología es la gran extensión de superficie analizada y la obtención de la distribución espaciotemporal de parámetros relevantes. Esto no puede lograrse mediante técnicas de muestreo de campo puntual.\nResistencia y la ciudad de Corrientes cuentan con una población conjunta de 730.000 habitantes [3]. El río Paraná es la fuente principal de agua para ambas zonas urbanas.\nLas plantas de potabilización cotidianamente realizan ensayos fisicoquímicos como parte del proceso. Estas bases de datos pueden usarse como complemento para las técnicas de teledetección satelital en el desarrollo de algoritmos de regresión.\nEl río Paraná es el segundo más extenso de América del Sur y tiene gran impacto en la industria, turismo, transporte y esparcimiento. El río Paraguay desemboca en el Paraná, y su alto contenido de sedimentos genera una división longitudinal de las propiedades del agua. El margen oeste (lado chaqueño) cuenta con una alta concentración de sólidos. Por el contrario, el margen este (lado correntino) posee aguas claras y baja presencia de sedimentos. Resulta de interés relevar ambas orillas a fin de evaluar íntegramente la zona de estudio.\nA partir de los registros históricos de la empresa SAMEEP (Chaco) y Aguas de Corrientes (Corrientes), se creará una base de datos que contenga las características fisicoquímicas del agua sin procesar.\nEstos datos serán combinados con las propiedades espectrales del agua obtenidos a partir de productos satelitales, capturados por plataformas satelitales con sensores ópticos.\nLos datos fisicoquímicos y espectrales permitirán desarrollar múltiples modelos de regresión tradicionales y de aprendizaje automático. El modelo que muestre las mejores métricas de desempeño será seleccionado para la validación definitiva.\nAsimismo, se propone la toma de muestras de agua en ambas plantas de tratamiento para realizar ensayos fisicoquímicos complementarios. Estos permitirán caracterizar en profundidad el agua de ambas orillas del río Paraná, obteniendo el estado trófico y verificando el modelo obtenido.\nLos resultados servirán para crear una herramienta automatizada, disponible de forma libre y gratuita, que muestre las últimas tendencias."
+  },
+  {
+    "objectID": "index.html#bibliografía",
+    "href": "index.html#bibliografía",
+    "title": "Proyecto Paraná 2026",
+    "section": "Bibliografía",
+    "text": "Bibliografía\n\n\n[1] M. A. Lovino, O. V. Müller, G. V. Müller, L. C. Sgroi, y W. E. Baethgen, «Interannual-to-multidecadal hydroclimate variability and its sectoral impacts in northeastern Argentina», Hydrology and Earth System Sciences, vol. 22, pp. 3155-3174, jun. 2018, doi: 10.5194/hess-22-3155-2018.\n\n\n[2] M. Bonansea et al., «Evaluating the Feasibility of Using Sentinel-2 Imagery for Water Clarity Assessment in a Reservoir», Journal of South American Earth Sciences, vol. 95, n.º May, p. 102265, 2019, doi: 10.1016/j.jsames.2019.102265.\n\n\n[3] Instituto Nacional de Estadística y Censos (Argentina), National Population, Household and Housing Census 2022: Provisional Results / c National Institute of Statistics and Census (Argentina). 2022."
   },
   {
     "objectID": "materiales_métodos.html",

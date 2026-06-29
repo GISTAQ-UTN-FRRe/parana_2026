@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región</title>
+<title>Proyecto Paraná 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -45,9 +65,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-befbc66b39b2aae9c130d7386e082ea6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-7f381e442b77e89f54dbc774fdf0fc88.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-befbc66b39b2aae9c130d7386e082ea6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c7dad5fb4b88647848ae6b0b7183fa64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-1cf9162011f4d4a3743afbaab9dc3be2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c7dad5fb4b88647848ae6b0b7183fa64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,6 +98,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="estilo.scss">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -98,29 +120,26 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./introducción.html"> <i class="bi bi-info-circle-fill" role="img">
-</i> 
-<span class="menu-text">Introducción</span></a>
+    <a class="nav-link" href="./introducción.html"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="material-symbols:info" aria-label="Icon info from material-symbols Iconify.design set." title="Icon info from material-symbols Iconify.design set."></iconify-icon> Introducción</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./materiales_métodos.html"> <i class="bi bi-flask-fill" role="img">
-</i> 
-<span class="menu-text">Materiales y métodos</span></a>
+    <a class="nav-link" href="./materiales_métodos.html"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="majesticons:box" aria-label="Icon box from majesticons Iconify.design set." title="Icon box from majesticons Iconify.design set."></iconify-icon> Materiales y métodos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resultados.html"> <i class="bi bi-lightbulb-fill" role="img">
-</i> 
-<span class="menu-text">Resultados</span></a>
+    <a class="nav-link" href="./resultados.html"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="carbon:result" aria-label="Icon result from carbon Iconify.design set." title="Icon result from carbon Iconify.design set."></iconify-icon> Resultados</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-people-fill" role="img">
-</i> 
-<span class="menu-text">Equipo</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="fluent:people-team-28-filled" aria-label="Icon people-team-28-filled from fluent Iconify.design set." title="Icon people-team-28-filled from fluent Iconify.design set."></iconify-icon> Equipo</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://github.com/GISTAQ-UTN-FRRe/parana_2026" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-github"></i></a>
+    <a href="https://www.instagram.com/gistaq.utn" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-instagram"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -134,10 +153,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#sitio" id="toc-sitio" class="nav-link active" data-scroll-target="#sitio">Sitio</a>
-  <ul class="collapse">
-  <li><a href="#sitio2" id="toc-sitio2" class="nav-link" data-scroll-target="#sitio2">Sitio2</a></li>
-  </ul></li>
+  <li><a href="#resumen" id="toc-resumen" class="nav-link active" data-scroll-target="#resumen">Resumen</a></li>
+  <li><a href="#bibliografía" id="toc-bibliografía" class="nav-link" data-scroll-target="#bibliografía">Bibliografía</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GISTAQ-UTN-FRRe/parana_2026/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/GISTAQ-UTN-FRRe/parana_2026/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/GISTAQ-UTN-FRRe/parana_2026/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></nav>
     </div>
@@ -146,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región</h1>
+<h1 class="title"><strong>Proyecto Paraná 2026</strong></h1>
 </div>
 
 
@@ -163,17 +180,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<section id="sitio" class="level1">
-<h1>Sitio</h1>
-<p>Contenido</p>
-<section id="sitio2" class="level2">
-<h2 class="anchored" data-anchor-id="sitio2">Sitio2</h2>
-<p>Contenido2</p>
-
-
+<p>El presente sitio web registra los principales avances, metodología y resultados del proyecto “<strong>Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región</strong>” (REMSTCI754), llevado a cabo en el Grupo de Investigación Sobre Temas Ambientales y Químicos (GISTAQ), de la Universidad Tecnológica Nacional Facultad Regional Resistencia (UTN-FRRe), en la Provincial del Chaco, Argentina.</p>
+<section id="resumen" class="level2">
+<h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
+<p>Preservar el agua es una actividad fundamental para el desarrollo humano. De acuerdo con los Objetivos de la Agenda 2030 para el Desarrollo Sostenible, el monitoreo de la calidad del agua es necesaria para garantizar su disponibilidad. En particular, los ecosistemas de agua dulce son sensibles a los cambios de usos de suelo, el impacto antrópico <span class="citation" data-cites="Lovino2018X"><a href="#ref-Lovino2018X" role="doc-biblioref">[1]</a></span> y efectos climáticos.</p>
+<p>La tecnología de teledetección espacial permite estimar, a gran escala, propiedades fisicoquímicas del agua mediante plataformas espaciales que orbitan el planeta <span class="citation" data-cites="Bonansea2019"><a href="#ref-Bonansea2019" role="doc-biblioref">[2]</a></span>. La ventaja de esta tecnología es la gran extensión de superficie analizada y la obtención de la distribución espaciotemporal de parámetros relevantes. Esto no puede lograrse mediante técnicas de muestreo de campo puntual.</p>
+<p>Resistencia y la ciudad de Corrientes cuentan con una población conjunta de 730.000 habitantes <span class="citation" data-cites="indec2022"><a href="#ref-indec2022" role="doc-biblioref">[3]</a></span>. El río Paraná es la fuente principal de agua para ambas zonas urbanas.</p>
+<p>Las plantas de potabilización cotidianamente realizan ensayos fisicoquímicos como parte del proceso. Estas bases de datos pueden usarse como complemento para las técnicas de teledetección satelital en el desarrollo de algoritmos de regresión.</p>
+<p>El río Paraná es el segundo más extenso de América del Sur y tiene gran impacto en la industria, turismo, transporte y esparcimiento. El río Paraguay desemboca en el Paraná, y su alto contenido de sedimentos genera una división longitudinal de las propiedades del agua. El margen oeste (lado chaqueño) cuenta con una alta concentración de sólidos. Por el contrario, el margen este (lado correntino) posee aguas claras y baja presencia de sedimentos. Resulta de interés relevar ambas orillas a fin de evaluar íntegramente la zona de estudio.</p>
+<p>A partir de los registros históricos de la empresa SAMEEP (Chaco) y Aguas de Corrientes (Corrientes), se creará una base de datos que contenga las características fisicoquímicas del agua sin procesar.</p>
+<p>Estos datos serán combinados con las propiedades espectrales del agua obtenidos a partir de productos satelitales, capturados por plataformas satelitales con sensores ópticos.</p>
+<p>Los datos fisicoquímicos y espectrales permitirán desarrollar múltiples modelos de regresión tradicionales y de aprendizaje automático. El modelo que muestre las mejores métricas de desempeño será seleccionado para la validación definitiva.</p>
+<p>Asimismo, se propone la toma de muestras de agua en ambas plantas de tratamiento para realizar ensayos fisicoquímicos complementarios. Estos permitirán caracterizar en profundidad el agua de ambas orillas del río Paraná, obteniendo el estado trófico y verificando el modelo obtenido.</p>
+<p>Los resultados servirán para crear una herramienta automatizada, disponible de forma libre y gratuita, que muestre las últimas tendencias.</p>
 </section>
+<section id="bibliografía" class="level2">
+<h2 class="anchored" data-anchor-id="bibliografía">Bibliografía</h2>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-Lovino2018X" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">M. A. Lovino, O. V. Müller, G. V. Müller, L. C. Sgroi, y W. E. Baethgen, <span>«Interannual-to-multidecadal hydroclimate variability and its sectoral impacts in northeastern Argentina»</span>, <em>Hydrology and Earth System Sciences</em>, vol. 22, pp. 3155-3174, jun. 2018, doi: <a href="https://doi.org/10.5194/hess-22-3155-2018">10.5194/hess-22-3155-2018</a>.</div>
+</div>
+<div id="ref-Bonansea2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">M. Bonansea <em>et&nbsp;al.</em>, <span>«Evaluating the Feasibility of Using <span>Sentinel-2</span> Imagery for Water Clarity Assessment in a Reservoir»</span>, <em>Journal of South American Earth Sciences</em>, vol. 95, n.º May, p. 102265, 2019, doi: <a href="https://doi.org/10.1016/j.jsames.2019.102265">10.1016/j.jsames.2019.102265</a>.</div>
+</div>
+<div id="ref-indec2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">Instituto Nacional de Estadística y Censos (Argentina), <em>National Population, Household and Housing Census 2022: Provisional Results / c National Institute of Statistics and Census (Argentina).</em> 2022.</div>
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -584,7 +619,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><img src="img/logo_utn.png" class="img-fluid" width="80"> &nbsp;&nbsp;&nbsp; <img src="img/logo_gistaq.png" class="img-fluid" width="80"></p>
+<p><img src="img/logo_utn.png" class="img-fluid" width="100"> &nbsp;&nbsp;&nbsp; <img src="img/logo_gistaq.png" class="img-fluid" width="150"></p>
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/GISTAQ-UTN-FRRe/parana_2026/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/GISTAQ-UTN-FRRe/parana_2026/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li><li><a href="https://github.com/GISTAQ-UTN-FRRe/parana_2026/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
