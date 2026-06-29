@@ -1,0 +1,25 @@
+color:
+  palette:
+    negro: "#1a1a1a"
+    blanco: "#f7f7f7"
+    verde: "#67b2a9"
+    azul: "#324da0"
+  background: blanco
+  foreground: negro
+  primary: verde
+  secondary: azul
+
+logo: 
+  medium: img/logo_gistaq.png
+
+typography:
+  fonts:
+    - family: Nunito
+      source: google
+    - family: Bebas Neue
+      source: google
+  base: 
+    family: Nunito
+  headings: 
+    family: Bebas Neue
+    color: azul
