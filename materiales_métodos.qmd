@@ -1,0 +1,14 @@
+---
+title: "Materiales y Métodos"
+format: 
+  html: 
+    toc: true
+---
+
+# Materiales
+
+Materiales.
+
+# Métodos
+
+Métodos.

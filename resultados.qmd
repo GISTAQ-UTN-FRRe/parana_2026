@@ -1,0 +1,10 @@
+---
+title: "Resultados"
+format: 
+  html: 
+    toc: true
+---
+
+# Principales resultados
+
+Resultados.

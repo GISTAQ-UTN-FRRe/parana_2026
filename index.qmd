@@ -5,3 +5,11 @@ title: "Desarrollo de un algoritmo de estimación de la calidad de agua en la cu
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# Sitio
+
+Contenido
+
+## Sitio2
+
+Contenido2
