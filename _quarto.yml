@@ -9,17 +9,13 @@ website:
   navbar:
     left:
       - href: introducción.qmd
-        text: "{{< iconify material-symbols:info >}} Introducción"
-        # icon: info-circle-fill
+        text: "{{< iconify material-symbols:info >}} **Introducción**"
       - href: materiales_métodos.qmd
-        text: "{{< iconify majesticons:box >}} Materiales y métodos"
-        # icon: flask-fill
+        text: "{{< iconify majesticons:box >}} **Materiales y métodos**"
       - href: resultados.qmd
-        text: "{{< iconify carbon:result >}} Resultados"
-        # icon: lightbulb-fill
+        text: "{{< iconify carbon:result >}} **Resultados**"
       - href: about.qmd
-        text: "{{< iconify fluent:people-team-28-filled >}} Equipo"
-        # icon: people-fill
+        text: "{{< iconify fluent:people-team-28-filled >}} **Equipo**"
     tools:
       - icon: github
         href: "https://github.com/GISTAQ-UTN-FRRe/parana_2026"
@@ -34,10 +30,6 @@ website:
 format:
   html:
     theme: brand
-      # dark: darkly
-      # light: flatly
-      # - cosmo
-      # - brand
     css: estilo.scss
     toc: true
     lang: es
