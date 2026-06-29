@@ -1,5 +1,5 @@
 ---
-title: "Introducción del Proyecto"
+# title: "Introducción del Proyecto"
 format: 
   html: 
     toc: true
@@ -12,3 +12,9 @@ Contenido.
 # Área de estudio
 
 Paraná.
+
+```{r}
+#| column: screen-inset-shaded
+source("scripts/roi.R")
+roi
+```
