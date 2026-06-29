@@ -1,15 +1,35 @@
 ---
-title: "Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región"
+title: "**Proyecto Paraná 2026**"
+format: 
+  html: 
+    toc: true
 ---
 
-This is a Quarto website.
+El presente sitio web registra los principales avances, metodología y resultados del proyecto "**Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región**" (REMSTCI754), llevado a cabo en el Grupo de Investigación Sobre Temas Ambientales y Químicos (GISTAQ), de la Universidad Tecnológica Nacional Facultad Regional Resistencia (UTN-FRRe), en la Provincial del Chaco, Argentina.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Resumen
 
-# Sitio
+Preservar el agua es una actividad fundamental para el desarrollo humano. De acuerdo con los Objetivos de la Agenda 2030 para el Desarrollo Sostenible, el monitoreo de la calidad del agua es necesaria para garantizar su disponibilidad. En particular, los ecosistemas de agua dulce son sensibles a los cambios de usos de suelo, el impacto  antrópico @Lovino2018X y efectos climáticos.
 
-Contenido
+La tecnología de teledetección espacial permite estimar, a gran escala,  propiedades fisicoquímicas del agua mediante plataformas espaciales  que orbitan el planeta @Bonansea2019. La ventaja de esta  tecnología es la gran extensión de superficie analizada y la obtención  de la distribución espaciotemporal de parámetros relevantes. Esto no puede lograrse mediante técnicas de muestreo de campo puntual.
 
-## Sitio2
+Resistencia y la ciudad de Corrientes cuentan con una población conjunta de 730.000 habitantes @indec2022. El río Paraná es la fuente principal de agua  para ambas zonas urbanas.
 
-Contenido2
+Las plantas de potabilización cotidianamente realizan ensayos  fisicoquímicos como parte del proceso. Estas bases de datos pueden  usarse como complemento para las técnicas de teledetección satelital  en el desarrollo de algoritmos de regresión. 
+
+El río Paraná es el segundo más extenso de América del Sur y tiene  gran impacto en la industria, turismo, transporte y esparcimiento. El río  Paraguay desemboca en el Paraná, y su alto contenido de sedimentos genera una división longitudinal de las propiedades del agua. El  margen oeste (lado chaqueño) cuenta con una alta concentración de  sólidos. Por el contrario, el margen este (lado correntino) posee aguas claras y baja presencia de sedimentos. Resulta de interés relevar  ambas orillas a fin de evaluar íntegramente la zona de estudio.
+
+A partir de los registros históricos de la empresa SAMEEP (Chaco) y Aguas de Corrientes (Corrientes), se creará una base de datos que  contenga las características fisicoquímicas del agua sin procesar.
+
+Estos datos serán combinados con las propiedades espectrales del  agua obtenidos a partir de productos satelitales, capturados por plataformas satelitales con sensores ópticos.
+
+Los datos fisicoquímicos y espectrales permitirán desarrollar múltiples  modelos de regresión tradicionales y de aprendizaje automático. El  modelo que muestre las mejores métricas de desempeño será  seleccionado para la validación definitiva. 
+
+Asimismo, se propone la toma de muestras de agua en ambas plantas de tratamiento para realizar ensayos fisicoquímicos complementarios.  Estos permitirán caracterizar en profundidad el agua de ambas orillas  del río Paraná, obteniendo el estado trófico y verificando el modelo  obtenido. 
+
+Los resultados servirán para crear una herramienta automatizada,  disponible de forma libre y gratuita, que muestre las últimas tendencias. 
+
+## Bibliografía
+
+::: {#refs}
+:::
