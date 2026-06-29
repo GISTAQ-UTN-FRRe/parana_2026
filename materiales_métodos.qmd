@@ -1,5 +1,5 @@
 ---
-title: "Materiales y Métodos"
+# title: "Materiales y Métodos"
 format: 
   html: 
     toc: true
@@ -7,8 +7,47 @@ format:
 
 # Materiales
 
-Materiales.
+Los datos fisicoquímicos provienen de múltiples fuentes: [Aguas de Corrientes](https://www.aguasdecorrientes.com/), [SAMEEP](https://sameep.gob.ar/) y APA.
 
-# Métodos
+## APA
+
+La **Administración Provincial del Agua** de la provincia del Chaco colaboró con datos de muestreos realizados en campañas en el 2024 y 2025.
+
+```{r}
+#| column: screen-inset-shaded
+library(leaflet)
+p <- read.table("datos/coordenadas_APA.txt", sep = "\t", header = TRUE) |>
+  sf::st_as_sf(coords = c("lon", "lat"), crs = 4326)
+
+leaflet(data = p) |>
+  addMarkers(
+    label = ~sitio,
+    icon = icons(
+      iconUrl = "img/f7--drop-fill.png",
+      iconWidth = 30,
+      iconHeight = 30
+    )
+  ) |>
+  addTiles(group = "OSM") |>
+  addTiles(
+    urlTemplate = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    group = "ESRI"
+  ) |>
+  leafem::addLogo(
+    img = "img/logo_gistaq.png",
+    position = "bottomleft",
+    width = 152,
+    height = 50
+  ) |>
+  addLayersControl(baseGroups = c("OSM", "ESRI")) |>
+  leaflet.extras::addResetMapButton() |>
+  leaflet.extras::addFullscreenControl(position = "bottomright")
+```
+
+## SAMEEP
+
+El **Servicio de Agua y Mantenimiento Empresa del Estado Provincial** del Chaco suministró los registros diarios de...
+
+# Metodología
 
 Métodos.
