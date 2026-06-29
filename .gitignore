@@ -3,6 +3,7 @@ _site
 recortes/
 .vscode/
 _extensions/
+*.tif
 
 # History files
 .Rhistory
