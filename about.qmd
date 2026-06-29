@@ -1,11 +1,21 @@
 ---
-title: "Integrantes"
+# title: "Integrantes"
 ---
 
-# Profesionales
+## Profesionales
 
-Ing. Tenev
+Ing. Daniela Tenev [{{<iconify simple-icons:orcid style="color:#a5cd39">}}](https://orcid.org/0000-0003-0860-9139)
 
-# Becarios
+Bioq. Elsa Hervot
 
-Víctor Gómez
+Ing. Enid Utgés [{{<iconify simple-icons:orcid style="color:#a5cd39">}}](https://orcid.org/0009-0003-5263-5198)
+
+Ing. Víctor Gauto [{{<iconify simple-icons:orcid style="color:#a5cd39">}}](https://orcid.org/0000-0001-9960-8558)
+
+## Becarios
+
+Mauricio Acosta [{{<iconify simple-icons:orcid style="color:#a5cd39">}}](https://orcid.org/0009-0002-3917-3454)
+
+Víctor Gómez [{{<iconify simple-icons:orcid style="color:#a5cd39">}}](https://orcid.org/0009-0001-4642-7670)
+
+Candelaria Tabernero 
