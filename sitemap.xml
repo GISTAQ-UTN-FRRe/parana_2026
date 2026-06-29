@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://GISTAQ-UTN-FRRe.github.io/parana_2026/index.html</loc>
-    <lastmod>2026-05-23T15:05:51.903Z</lastmod>
+    <loc>https://GISTAQ-UTN-FRRe.github.io/parana_2026/resultados.html</loc>
+    <lastmod>2026-06-29T12:33:24.168Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GISTAQ-UTN-FRRe.github.io/parana_2026/introducción.html</loc>
+    <lastmod>2026-06-29T12:24:17.460Z</lastmod>
   </url>
   <url>
     <loc>https://GISTAQ-UTN-FRRe.github.io/parana_2026/about.html</loc>
-    <lastmod>2026-05-23T17:10:27.873Z</lastmod>
+    <lastmod>2026-06-29T12:37:41.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GISTAQ-UTN-FRRe.github.io/parana_2026/index.html</loc>
+    <lastmod>2026-06-29T12:15:33.525Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GISTAQ-UTN-FRRe.github.io/parana_2026/materiales_métodos.html</loc>
+    <lastmod>2026-06-29T12:30:11.182Z</lastmod>
   </url>
 </urlset>

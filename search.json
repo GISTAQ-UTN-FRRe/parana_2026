@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "resultados.html",
+    "href": "resultados.html",
+    "title": "Resultados",
+    "section": "",
+    "text": "Principales resultados\nResultados."
+  },
+  {
+    "objectID": "introducción.html",
+    "href": "introducción.html",
+    "title": "Introducción del Proyecto",
+    "section": "",
+    "text": "Calidad del Agua\nContenido.\n\n\nÁrea de estudio\nParaná."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Integrantes",
+    "section": "",
+    "text": "Profesionales\nIng. Tenev\n\n\nBecarios\nVíctor Gómez"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región",
@@ -7,10 +28,17 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Integrantes",
+    "objectID": "index.html#sitio2",
+    "href": "index.html#sitio2",
+    "title": "Desarrollo de un algoritmo de estimación de la calidad de agua en la cuenca media del río Paraná mediante registros de plantas potabilizadoras de la región",
+    "section": "Sitio2",
+    "text": "Sitio2\nContenido2"
+  },
+  {
+    "objectID": "materiales_métodos.html",
+    "href": "materiales_métodos.html",
+    "title": "Materiales y Métodos",
     "section": "",
-    "text": "GRUPO DE INVESTIGACIÓN SOBRE TEMAS AMBIENTALES Y QUÍMICOS."
+    "text": "Materiales\nMateriales.\n\n\nMétodos\nMétodos."
   }
 ]
