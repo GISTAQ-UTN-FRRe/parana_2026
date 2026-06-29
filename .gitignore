@@ -2,6 +2,7 @@
 _site
 recortes/
 .vscode/
+_extensions/
 
 # History files
 .Rhistory
