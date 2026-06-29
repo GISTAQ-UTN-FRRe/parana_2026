@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+$blanco: #FFFFFF;
+$naranja: #f86501;
+
+$navbar-bg: $naranja;
+
+$footer-bg: $naranja;
+
+$link-color: $naranja;
+$link-hover-decoration: underline;
+
+$dropdown-bg: $naranja !default;
+$dropdown-color: $blanco;
+$dropdown-link-color: $blanco !default;
+$dropdown-link-hover-color: $dropdown-link-color !default;
+$dropdown-link-hover-bg: darken($naranja, 10) !default;
+
+/*-- scss:rules --*/
+
+// color de las secciones activas en la tabla de contenidos
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid $naranja;
+    color: $naranja !important;
+}
+
+// en la tabla de contenidos, al pasar el mouse sobre las secciones que sea naranja
+.sidebar nav[role=doc-toc] ul>li>a:hover, .sidebar nav[role=doc-toc] ul>li>ul>li>a:hover {
+    color: $naranja !important;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+    font-size: 4em;
+}
+
+titulo {
+    font-size: 4rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
