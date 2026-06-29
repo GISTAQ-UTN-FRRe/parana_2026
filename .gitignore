@@ -1,5 +1,7 @@
 /.quarto/
 _site
+recortes/
+.vscode/
 
 # History files
 .Rhistory
