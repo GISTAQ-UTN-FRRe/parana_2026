@@ -3,17 +3,39 @@ project:
   output-dir: docs
 
 website:
-  title: "parana_2026"
+  title: ""
+  page-footer: 
+    center: "![](img/logo_utn.png){width=80} &nbsp;&nbsp;&nbsp; ![](img/logo_gistaq.png){width=80}"
   navbar:
     left:
-      - about.qmd
+      - href: introducción.qmd
+        text: "Introducción"
+        icon: info-circle-fill
+      - href: materiales_métodos.qmd
+        text: "Materiales y métodos"
+        icon: flask-fill
+      - href: resultados.qmd
+        text: Resultados
+        icon: lightbulb-fill
+      - href: about.qmd
+        text: Equipo
+        icon: people-fill
+    tools:
+      - icon: github
+        href: "https://github.com/GISTAQ-UTN-FRRe/parana_2026"
+        target: _blank
+  favicon: img/favicon.jpg
+  repo-url: https://github.com/GISTAQ-UTN-FRRe/parana_2026
+  repo-actions: [edit, source, issue]
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: brand
+      # dark: darkly
+      # light: flatly
+      # - cosmo
+      # - brand
+    # css: styles.css
     toc: true
     lang: es
 
