@@ -3,11 +3,14 @@ color:
     negro: "#1a1a1a"
     blanco: "#f7f7f7"
     verde: "#67b2a9"
-    azul: "#324da0"
+    azul: "#aab5d5"
+    azul-oscuro: "#454a74"
+    azul2: "#2e77ab"
+    marrón: "#d1b252"
   background: blanco
   foreground: negro
-  primary: verde
-  secondary: azul
+  primary: marrón
+  secondary: azul2
 
 logo: 
   medium: img/logo_gistaq.png
@@ -16,10 +19,11 @@ typography:
   fonts:
     - family: Nunito
       source: google
-    - family: Bebas Neue
+    - family: Libre Bodoni
       source: google
   base: 
     family: Nunito
   headings: 
-    family: Bebas Neue
-    color: azul
+    family: Libre Bodoni
+    color: azul2
+    weight: bold
