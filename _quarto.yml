@@ -5,24 +5,27 @@ project:
 website:
   title: ""
   page-footer: 
-    center: "![](img/logo_utn.png){width=80} &nbsp;&nbsp;&nbsp; ![](img/logo_gistaq.png){width=80}"
+    center: "![](img/logo_utn.png){width=100} &nbsp;&nbsp;&nbsp; ![](img/logo_gistaq.png){width=150}"
   navbar:
     left:
       - href: introducción.qmd
-        text: "Introducción"
-        icon: info-circle-fill
+        text: "{{< iconify material-symbols:info >}} Introducción"
+        # icon: info-circle-fill
       - href: materiales_métodos.qmd
-        text: "Materiales y métodos"
-        icon: flask-fill
+        text: "{{< iconify majesticons:box >}} Materiales y métodos"
+        # icon: flask-fill
       - href: resultados.qmd
-        text: Resultados
-        icon: lightbulb-fill
+        text: "{{< iconify carbon:result >}} Resultados"
+        # icon: lightbulb-fill
       - href: about.qmd
-        text: Equipo
-        icon: people-fill
+        text: "{{< iconify fluent:people-team-28-filled >}} Equipo"
+        # icon: people-fill
     tools:
       - icon: github
         href: "https://github.com/GISTAQ-UTN-FRRe/parana_2026"
+        target: _blank
+      - icon: instagram
+        href: "https://www.instagram.com/gistaq.utn"
         target: _blank
   favicon: img/favicon.jpg
   repo-url: https://github.com/GISTAQ-UTN-FRRe/parana_2026
@@ -35,9 +38,12 @@ format:
       # light: flatly
       # - cosmo
       # - brand
-    # css: styles.css
+    css: estilo.scss
     toc: true
     lang: es
+    bibliography: biblio\bibliografia.bib
+    csl: biblio\ieee.csl
 
-
-
+execute: 
+  echo: false
+  eval: true
